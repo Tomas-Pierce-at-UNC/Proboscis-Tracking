@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>56319</id>
+      <size>91</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2022-12-25 19:32:48.373458+00:00</created>
+      <updated>2023-04-14 19:30:20.904450+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>90</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>56319</id>
+          <start>0</start>
+          <stop>90</stop>
+          <url>https://app.cvat.ai/api/jobs/56319</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>Tomas-Pierce-at-UNC</username>
+        <email>ttomas@email.unc.edu</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Meniscus</name>
+          <color>#2d3e40</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>MeniscusCenter</name>
+          <color>#7df988</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Proboscis</name>
+          <color>#a75021</color>
+          <type>polyline</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>ProboscisTip</name>
+          <color>#bb7ead</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>ProboscisOutline</name>
+          <color>#5290ea</color>
+          <type>polygon</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2023-04-14 19:30:52.023521+00:00</dumped>
+  </meta>
+  <image id="0" name="training/img0_1.png" width="45" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="25.45,268.56" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.91" ytl="262.64" xbr="40.25" ybr="274.48" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="training/img0_2.png" width="44" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.23,261.16" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="3.48" ytl="255.24" xbr="35.29" ybr="267.10" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="10.13,396.55" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="30.08,219.32;32.22,249.29;35.22,294.67;34.36,342.19;29.65,357.18;26.65,368.31;21.09,379.44;16.81,387.58;12.10,394.00" z_order="0">
+    </polyline>
+  </image>
+  <image id="2" name="training/img0_3.png" width="45" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="24.71,273.00" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.21" ytl="266.34" xbr="42.47" ybr="277.43" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="training/img13_1.png" width="39" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="20.27,251.54" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="38.77,162.76;30.63,177.56;18.10,211.60;10.70,219.70;6.90,246.40;7.70,270.00;17.30,271.50;29.80,268.50;34.30,249.40;21.70,250.80" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.01,271.52" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.69" ytl="266.34" xbr="34.33" ybr="275.21" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="training/img13_2.png" width="40" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="19.23,258.94" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.71,271.52" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="38.47,171.64;19.97,208.63;9.62,232.30;8.14,267.08;16.28,274.48;34.77,267.08;31.81,257.46;19.97,257.46" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.40" ytl="264.86" xbr="36.99" ybr="275.95" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="training/img13_3.png" width="40" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.97,271.52" z_order="0">
+    </points>
+    <points label="ProboscisTip" source="manual" occluded="0" points="20.71,251.54" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.68" ytl="264.91" xbr="36.28" ybr="274.53" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="39.21,167.12;20.70,204.20;7.80,232.80;8.88,265.23;24.30,275.30;30.65,270.59;32.79,258.46;33.15,250.96;27.44,249.89;22.09,250.61" z_order="0">
+    </polyline>
+  </image>
+  <image id="6" name="training/img14_1.png" width="39" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="17.10,298.90" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="4.95" ytl="294.13" xbr="30.16" ybr="303.21" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="8.53,225.11;23.15,258.65;26.59,284.88;29.60,306.38;33.04,428.50;32.18,443.97" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="31.80,443.70" z_order="0">
+    </points>
+  </image>
+  <image id="7" name="training/img14_2.png" width="40" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.32" ytl="297.88" xbr="32.79" ybr="308.94" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="18.90,303.90" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="14.62,232.21;17.91,234.60;19.70,247.44;24.78,267.75;27.17,277.60;28.36,302.68;31.90,309.80;34.03,423.62;32.54,444.22" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="32.84,443.02" z_order="0">
+    </points>
+  </image>
+  <image id="8" name="training/img14_3.png" width="40" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="17.55,297.61" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.79" ytl="292.20" xbr="33.47" ybr="302.20" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="32.35,442.85" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="8.32,222.59;15.01,234.98;18.97,245.38;26.65,266.69;26.41,284.28;29.63,303.11;30.87,319.46;34.06,430.91;32.80,443.20" z_order="0">
+    </polyline>
+  </image>
+  <image id="9" name="training/img16_3.png" width="46" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="3.28" ytl="130.01" xbr="35.82" ybr="139.40" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.93,135.57" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="45.61,59.31;42.88,59.81;39.41,64.27;30.74,79.13;25.50,96.00;29.30,118.80;28.00,124.20;21.10,123.20;19.80,120.50;24.80,120.50" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="24.55,120.51" z_order="0">
+    </points>
+  </image>
+  <image id="10" name="training/img19_1.png" width="38" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="24.81,359.36" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="26.34,271.69;25.85,291.10;25.60,304.54;24.85,315.49;24.85,320.71;24.10,332.66;24.60,344.10;24.35,350.57;24.85,359.28" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.43" ytl="349.75" xbr="34.39" ybr="358.39" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.48,354.66" z_order="0">
+    </points>
+  </image>
+  <image id="11" name="training/img19_2.png" width="39" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="29.74,206.17;30.16,236.14;31.45,266.97;32.73,281.95;30.16,304.64;28.88,319.63;26.74,334.19;25.03,346.17;24.40,355.70" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="24.78,355.73" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="14.64" ytl="322.20" xbr="37.08" ybr="333.00" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="25.60,329.00" z_order="0">
+    </points>
+  </image>
+  <image id="12" name="training/img19_3.png" width="39" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="38.50,147.52;36.43,163.83;34.16,180.14;32.30,205.33;30.03,274.08;29.83,319.92;27.30,335.60;25.00,348.40;21.40,367.30;17.10,389.00" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="17.55,388.83" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="12.35" ytl="388.10" xbr="37.94" ybr="398.93" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="23.95,394.03" z_order="0">
+    </points>
+  </image>
+  <image id="13" name="training/img1_1.png" width="39" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="24.00,264.50;24.60,270.50;25.80,275.30;25.90,279.50;26.20,283.80;26.20,288.40;26.60,290.70;26.90,293.90;26.70,296.50;26.70,299.70" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="5.30,201.80;5.10,206.90;5.40,211.10;6.90,213.50;7.40,216.60;8.00,218.30;8.60,220.80" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.66" ytl="299.58" xbr="34.47" ybr="310.42" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.36,305.60" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="31.62,304.98;31.32,313.64;29.82,321.70;28.33,329.17;25.94,336.63;23.25,342.90;20.70,349.40;18.00,357.00;14.80,364.90;12.20,367.30" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="12.42,367.15" z_order="0">
+    </points>
+  </image>
+  <image id="14" name="training/img1_2.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="38.00,189.74;35.08,198.06;28.39,218.87;17.73,267.43;17.24,278.58;18.73,291.71;20.71,305.34;22.19,311.78" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="21.95,310.79" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.82" ytl="308.60" xbr="32.60" ybr="318.97" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.46,315.25" z_order="0">
+    </points>
+  </image>
+  <image id="15" name="training/img1_3.png" width="39" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.35,312.62" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.00" ytl="307.13" xbr="33.50" ybr="316.33" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="training/img20_1.png" width="39" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="22.30,203.58;24.08,224.63;26.22,242.47;26.58,277.44;25.15,308.48;23.37,350.93;23.01,373.77;22.40,383.40;21.50,388.20;19.40,398.30" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="19.70,397.90" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="13.44" ytl="332.28" xbr="38.04" ybr="342.24" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="24.33,338.25" z_order="0">
+    </points>
+  </image>
+  <image id="17" name="training/img20_2.png" width="39" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="12.23" ytl="357.25" xbr="37.75" ybr="367.16" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="24.38,363.44" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="30.90,252.20;29.10,256.00;27.60,262.00;26.80,265.90;23.50,269.80;23.00,273.70;23.00,276.40;21.60,280.70;20.40,283.70;19.23,287.18;18.13,291.28;17.33,295.38;16.53,298.88;16.33,302.28;16.10,304.10" z_order="0">
+    </polyline>
+  </image>
+  <image id="18" name="training/img20_3.png" width="39" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="24.94,329.60" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="13.05" ytl="324.15" xbr="38.32" ybr="332.82" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="training/img21_1.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.35,179.46;14.33,204.67;21.73,223.43;26.28,272.54;24.48,287.11;22.45,336.94;20.90,380.07;11.70,447.90;8.20,477.30;10.80,489.80" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="10.97,489.76" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.77" ytl="285.00" xbr="34.27" ybr="295.36" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.07,291.06" z_order="0">
+    </points>
+  </image>
+  <image id="20" name="training/img21_2.png" width="38" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.30,293.00" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="15.99,271.80;15.63,280.36;17.77,290.35;17.77,308.55;20.27,334.95;19.91,362.07;18.84,379.19;15.98,400.95;13.84,419.51;12.06,433.07;11.70,446.98;13.13,454.12;14.20,457.60;15.59,461.82" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="15.49,461.51" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.68" ytl="286.56" xbr="33.12" ybr="297.36" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="training/img21_3.png" width="38" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.50,305.10" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="18.27,272.23;14.70,288.28;13.27,301.13;11.85,313.97;11.49,333.24;10.06,353.22;10.06,384.97;12.56,397.82;15.41,406.38;20.05,415.30;21.73,419.36;23.12,421.26" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="22.91,421.17" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.39" ytl="294.56" xbr="34.73" ybr="310.45" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="training/img22_1.png" width="40" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="33.16,478.47" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="17.16,313.29" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="3.40" ytl="305.38" xbr="30.76" ybr="317.90" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="10.42,276.56;10.42,287.50;11.66,299.27;13.51,319.71;13.51,330.66;13.93,336.02;14.96,343.25;14.55,366.58;14.75,371.95;16.20,384.75;17.85,392.80;25.08,433.27;27.76,451.65;30.70,468.40;33.50,479.10" z_order="0">
+    </polyline>
+  </image>
+  <image id="23" name="training/img22_2.png" width="40" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="32.26,504.99" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="16.07,312.90" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="10.25,275.86;11.24,291.47;12.98,300.88;14.96,318.72;15.95,334.83;16.45,353.41;16.94,362.08;16.94,374.96;18.43,378.68;25.61,420.55;29.08,435.17;33.05,477.54;33.54,499.10;32.06,505.29" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="4.37" ytl="306.18" xbr="31.25" ybr="318.12" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="training/img22_3.png" width="40" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="2.40" ytl="303.95" xbr="31.24" ybr="317.03" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="31.71,505.00" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="11.03,297.11;11.92,326.84;12.21,367.87;13.70,381.25;18.46,403.84;27.20,446.60;27.94,460.22;29.43,470.12;30.92,478.56;31.10,501.30;31.70,505.50" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="16.38,313.16" z_order="0">
+    </points>
+  </image>
+  <image id="25" name="training/img23_1.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="31.95,330.79;30.70,338.03;29.67,348.40;28.01,358.56;26.76,367.27;25.10,375.98;23.03,383.24;19.71,391.76;16.60,399.00" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="16.60,399.30" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.64" ytl="321.31" xbr="34.99" ybr="331.42" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.40,327.70" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="1.00,201.90;4.80,206.10;9.30,210.80;13.00,216.10;15.90,221.30;18.60,226.80;19.70,229.50" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="29.00,271.30;29.60,278.60;29.30,290.30;29.50,299.40;29.10,307.30;28.30,312.80;28.00,319.50;27.70,322.90" z_order="0">
+    </polyline>
+  </image>
+  <image id="26" name="training/img23_2.png" width="38" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="30.92,357.20" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.69,202.10;9.61,208.54;16.79,218.45;21.25,226.13;27.20,255.86;28.93,275.19;29.68,322.51;34.63,326.23;33.64,347.29;30.92,358.19" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.80" ytl="321.30" xbr="34.30" ybr="329.90" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.52,326.54" z_order="0">
+    </points>
+  </image>
+  <image id="27" name="training/img23_3.png" width="38" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="23.22,387.17" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.18,327.07" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.12" ytl="321.10" xbr="34.80" ybr="331.08" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="31.89,329.12;30.89,344.32;30.03,355.08;28.88,361.53;28.02,369.99;27.45,374.00;26.16,380.17;25.00,383.40;23.22,387.17" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="29.06,271.84;29.27,282.62;29.27,295.07;29.06,304.60;28.24,316.01;27.82,322.23" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="2.29,203.31;10.65,209.58;17.52,221.82;21.10,228.69" z_order="0">
+    </polyline>
+  </image>
+  <image id="28" name="training/img24_1.png" width="45" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="25.68,364.63" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.93" ytl="358.09" xbr="39.66" ybr="368.20" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="28.50,284.30;28.50,288.50;26.60,308.90;26.30,318.00;26.40,325.40;25.50,331.90;25.30,336.80;25.40,342.00;26.00,344.40" z_order="0">
+    </polyline>
+  </image>
+  <image id="29" name="training/img24_2.png" width="54" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="18.60,204.50;24.10,207.60;28.50,211.60;32.70,215.30;35.90,220.90" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="41.50,240.60;42.10,247.10;42.20,251.70;42.30,259.80;42.40,265.50;42.70,272.60;43.70,278.70;43.80,284.90;43.70,286.90" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="35.00,352.94" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="22.37" ytl="346.74" xbr="50.37" ybr="357.40" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="training/img25_1.png" width="40" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.30,313.70" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.54" ytl="307.28" xbr="36.21" ybr="317.40" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="training/img25_2.png" width="41" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="18.42,313.38" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="4.65" ytl="307.02" xbr="32.87" ybr="317.51" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="training/img25_3.png" width="40" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.47" ytl="306.50" xbr="36.19" ybr="317.34" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.63,313.39" z_order="0">
+    </points>
+  </image>
+  <image id="33" name="training/img26_1.png" width="40" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="24.81,265.45" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="11.90" ytl="259.57" xbr="36.42" ybr="269.18" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="training/img26_2.png" width="39" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.81" ytl="262.16" xbr="36.91" ybr="273.78" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="24.20,341.40" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="23.65,269.68" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="10.20,299.64;11.41,321.75;15.55,339.73;23.16,354.24;26.96,356.66;34.04,355.45;34.21,340.24;24.02,337.65;19.70,341.28;23.50,351.48;27.13,353.89;31.80,353.38;33.01,345.60;30.59,342.84;24.20,341.40" z_order="0">
+    </polyline>
+  </image>
+  <image id="35" name="training/img26_3.png" width="39" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="9.26,323.33;15.07,342.20;21.29,353.40;30.00,355.89;34.35,350.08;34.77,340.96;25.23,338.05;16.73,340.13;15.07,348.01;20.87,357.75;27.51,358.58;34.56,355.47;34.15,344.27;28.75,341.16;27.20,341.94" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.86" ytl="261.41" xbr="36.37" ybr="272.81" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="23.24,269.34" z_order="0">
+    </points>
+    <points label="ProboscisTip" source="manual" occluded="0" points="27.20,341.94" z_order="0">
+    </points>
+  </image>
+  <image id="36" name="training/img27_1.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="32.55,338.59;32.55,344.04;31.56,347.26;28.83,349.49" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="27.48,278.55;27.13,285.98;27.48,302.57;27.48,318.47" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="28.00,349.53" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.60" ytl="318.72" xbr="34.32" ybr="328.32" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.45,324.47" z_order="0">
+    </points>
+  </image>
+  <image id="37" name="training/img27_2.png" width="38" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.86" ytl="319.99" xbr="36.37" ybr="329.15" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="27.00,320.70" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="25.96,208.14;26.70,218.55;26.70,227.72" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="28.20,266.10;28.20,285.70;27.00,300.50;27.20,319.90" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="22.24,324.94" z_order="0">
+    </points>
+  </image>
+  <image id="38" name="training/img27_3.png" width="38" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.39" ytl="310.00" xbr="36.29" ybr="321.75" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.45,318.38" z_order="0">
+    </points>
+    <points label="ProboscisTip" source="manual" occluded="0" points="31.54,397.93" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="30.34,319.02;30.10,330.13;29.98,344.95;30.34,362.75;30.22,379.36;29.98,387.60;30.94,391.54;31.89,393.22;31.50,397.40" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="1.10,179.70;4.00,187.10;6.60,193.30;7.90,197.30" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="28.40,266.90;29.40,275.20;29.40,289.10;29.80,299.60;29.60,307.20;29.30,311.90" z_order="0">
+    </polyline>
+  </image>
+  <image id="39" name="training/img28_1.png" width="38" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.76" ytl="319.42" xbr="33.27" ybr="328.58" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="28.26,304.80" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.00,160.28;6.49,167.80;14.70,182.78;18.27,194.56;22.19,216.32;23.98,228.09;26.47,261.63;28.62,280.18;28.26,295.88;27.90,303.73" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.89,325.36" z_order="0">
+    </points>
+  </image>
+  <image id="40" name="training/img28_2.png" width="37" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.82" ytl="318.80" xbr="32.58" ybr="329.95" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="18.95,326.23" z_order="0">
+    </points>
+  </image>
+  <image id="41" name="training/img28_3.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.30,179.31;10.21,192.11;15.58,206.98;20.33,227.63;25.49,255.91;27.55,279.86;28.59,293.49" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.32" ytl="317.75" xbr="33.82" ybr="327.21" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.05,323.26" z_order="0">
+    </points>
+  </image>
+  <image id="42" name="training/img2_1.png" width="38" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="22.10,458.70" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.82" ytl="279.06" xbr="35.07" ybr="289.60" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="18.56,284.73" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="38.00,198.55;35.94,199.32;32.08,205.56;24.35,220.13;18.99,246.89;17.51,260.86;16.62,276.32;16.32,281.68;13.34,290.60;11.56,307.54;12.75,317.95;13.05,327.76;14.83,338.17;16.91,348.28;18.99,359.57;21.37,371.17;22.86,383.06;22.86,393.47;24.03,415.16;24.03,415.16;23.70,421.60;22.90,429.29;21.72,438.13;19.10,446.76;16.68,452.62;16.32,455.91;17.30,457.65;18.33,458.53;22.28,458.63" z_order="0">
+    </polyline>
+  </image>
+  <image id="43" name="training/img2_2.png" width="38" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="31.59,403.92" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="20.87,265.68;18.49,283.22;13.14,298.39;11.06,319.79;8.97,405.72;12.60,412.32;15.40,413.33;20.69,413.21;27.79,409.14;31.78,403.93" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.10,291.60" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.50" ytl="286.40" xbr="34.10" ybr="295.70" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="training/img2_3.png" width="39" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.90,292.99" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="21.98,246.00;20.19,264.20;18.77,280.97;15.56,300.95;13.77,324.14;14.00,347.50;14.59,356.86;14.17,372.77;14.02,383.22;13.45,390.54;12.70,394.14;12.85,398.14;13.59,402.31" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.04" ytl="286.98" xbr="33.79" ybr="296.10" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="13.60,402.30" z_order="0">
+    </points>
+  </image>
+  <image id="45" name="training/img32_1.png" width="40" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.49" ytl="173.77" xbr="38.43" ybr="183.75" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="23.12,180.48" z_order="0">
+    </points>
+  </image>
+  <image id="46" name="training/img32_2.png" width="40" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="22.52,195.57" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="12.60,178.80;12.90,188.90;12.60,195.40;14.40,201.80;17.50,208.10;21.80,212.20;24.40,216.50;28.10,219.30;33.10,223.60" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="33.58,224.75" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="10.49" ytl="189.60" xbr="35.11" ybr="201.73" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="training/img33_1.png" width="39" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="16.96,498.04" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.96" ytl="292.67" xbr="33.79" ybr="304.80" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.27,300.16" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="24.73,270.31;22.59,294.28;21.30,317.83;19.16,347.37;18.73,366.21;17.88,380.77;15.73,396.18;11.80,423.33;9.96,437.33;11.20,488.53;13.25,494.74;16.76,498.04" z_order="0">
+    </polyline>
+  </image>
+  <image id="48" name="training/img33_2.png" width="39" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.00" ytl="287.40" xbr="33.00" ybr="296.64" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="24.46,254.88;23.22,280.69;21.57,305.47;18.90,325.30;16.82,351.51;16.41,371.95;15.17,386.20;13.31,399.41;10.83,417.37;9.59,439.05;11.04,488.19;13.31,496.25;18.47,503.89" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="18.90,503.90" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.05,291.88" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.48,185.45;4.52,194.96;7.76,201.94" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="9.70,205.30;13.30,213.70;16.90,223.30;19.80,231.80" z_order="0">
+    </polyline>
+  </image>
+  <image id="49" name="training/img33_3.png" width="39" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.70,197.00;5.20,201.70;8.30,206.00;11.70,211.20;18.10,219.10;22.00,227.40;21.80,233.10" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="18.60,484.62" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.57" ytl="291.49" xbr="34.27" ybr="300.99" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.19,296.44" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="24.41,251.39;23.69,274.94;21.55,291.71;22.26,308.83;21.30,354.75;20.80,369.38;18.09,389.47;15.34,409.02;13.38,422.65;11.63,434.31;11.63,464.53;12.13,474.20;14.60,479.30;17.98,484.34" z_order="0">
+    </polyline>
+  </image>
+  <image id="50" name="training/img34_1.png" width="40" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="16.61,464.56" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="11.12" ytl="326.20" xbr="37.38" ybr="336.36" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="22.76,332.40" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="29.00,271.40;30.65,280.69;29.62,329.21;33.54,337.88;29.41,364.72;24.66,387.64;23.22,397.35;21.98,405.81;20.95,417.17;20.33,432.03;19.30,440.91;18.88,449.58;17.23,457.22;16.82,464.86" z_order="0">
+    </polyline>
+  </image>
+  <image id="51" name="training/img34_2.png" width="40" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="27.35,270.65;24.62,277.10;22.89,284.28;20.16,293.70;18.92,307.08;18.92,317.48;13.72,320.95;14.96,340.77;16.45,359.85;18.18,381.16;19.17,391.81;21.15,405.69;22.80,413.00;23.40,419.20" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="23.30,418.60" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="11.94" ytl="316.01" xbr="36.82" ybr="324.72" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="23.70,320.80" z_order="0">
+    </points>
+  </image>
+  <image id="52" name="training/img34_3.png" width="41" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="30.60,254.20;28.20,258.90;26.70,265.70;25.10,271.00;23.60,275.90;22.50,281.20;21.20,287.50;20.50,292.10;20.20,297.40;19.22,301.96;18.90,303.50;18.80,305.70;18.82,307.66;18.40,311.00;18.02,313.36" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="11.81" ytl="312.97" xbr="36.79" ybr="322.61" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="23.23,317.97" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="41.00,223.27;39.70,226.30;38.20,229.80;36.70,232.80;36.20,234.80" z_order="0">
+    </polyline>
+  </image>
+  <image id="53" name="training/img35_1.png" width="38" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="20.43,322.38" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.50" ytl="296.77" xbr="34.80" ybr="305.58" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.32,302.47" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.32,200.83;13.88,226.88;27.44,260.77;33.86,281.11;33.15,292.53;30.65,303.59;28.86,310.01;25.30,317.15;22.80,319.64;20.90,322.10" z_order="0">
+    </polyline>
+  </image>
+  <image id="54" name="training/img35_2.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="21.00,247.20;24.80,254.80;27.20,258.60;28.70,263.20;29.30,266.10" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.70,199.40;4.70,208.00;7.40,214.50;10.50,220.50;13.10,227.40;15.20,230.60" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="30.72,269.56;31.92,277.45;32.39,284.38;31.92,289.99;30.96,295.13;29.17,298.48;29.05,304.33;27.30,307.90;25.50,311.20" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.56,302.30" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.78" ytl="295.37" xbr="34.66" ybr="305.41" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="24.91,311.47" z_order="0">
+    </points>
+  </image>
+  <image id="55" name="training/img35_3.png" width="38" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.66,291.20" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="1.20,201.60;5.10,204.20;9.20,207.10;13.00,210.40;16.50,216.30;19.10,221.80;21.20,227.50;22.00,230.70" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="26.16,252.12;27.26,260.12;28.10,268.80;29.06,274.62;28.80,279.00;29.10,282.30" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="33.34,291.01;33.13,315.38;30.86,325.29;28.79,336.64;24.04,351.51;19.92,362.25;16.61,371.33;13.31,380.83;11.04,388.67;9.18,396.52" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="9.52,398.21" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.97" ytl="286.20" xbr="33.96" ybr="294.80" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="training/img36_1.png" width="50" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.11" ytl="155.86" xbr="48.98" ybr="174.20" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="28.66,167.26" z_order="0">
+    </points>
+  </image>
+  <image id="57" name="training/img36_2.png" width="53" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="29.52,162.99" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="10.19" ytl="155.55" xbr="53.00" ybr="168.93" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="training/img36_3.png" width="45" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.40" ytl="158.89" xbr="45.00" ybr="172.51" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="24.70,168.10" z_order="0">
+    </points>
+  </image>
+  <image id="59" name="training/img37_1.png" width="39" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="1.08,199.79;12.23,223.08;21.90,248.11;27.60,271.40;27.84,290.72;32.06,301.13;29.83,327.64;28.59,350.93;27.84,363.82;26.85,370.75;25.37,374.47;23.88,375.71" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="24.00,375.90" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="4.22" ytl="290.11" xbr="33.75" ybr="300.22" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.09,296.09" z_order="0">
+    </points>
+  </image>
+  <image id="60" name="training/img37_2.png" width="38" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="18.28,315.75" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="1.14,165.07;8.84,176.63;15.69,187.76;22.11,199.32;26.82,222.01;25.11,269.11;28.11,286.66;25.54,299.93;22.97,306.79" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="4.65" ytl="310.55" xbr="32.65" ybr="319.71" z_order="0">
+    </box>
+  </image>
+  <image id="61" name="training/img37_3.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="-0.00,165.27;9.80,183.23;17.23,202.23;20.95,223.70;25.70,264.17;25.49,278.01;24.87,289.77;24.46,298.03;25.70,302.78;25.28,304.43" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.70,319.43" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.10" ytl="311.58" xbr="32.15" ybr="323.71" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="24.45,306.01" z_order="0">
+    </points>
+  </image>
+  <image id="62" name="training/img38_1.png" width="39" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.66" ytl="335.72" xbr="34.18" ybr="345.76" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.56,341.90" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="37.00,112.10;30.40,116.70;24.20,122.40;20.90,127.00;17.40,131.80;15.20,136.30;11.70,145.00;9.60,155.30;9.10,164.40;9.95,175.46;10.05,184.76;10.66,195.16;11.66,201.36" z_order="0">
+    </polyline>
+  </image>
+  <image id="63" name="training/img38_2.png" width="39" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="19.16,257.49;19.16,289.96;18.45,312.79;18.80,323.14;19.52,346.69;18.80,358.82;18.55,370.52;17.70,382.26;16.98,387.50;14.49,400.42;13.27,407.81;12.45,412.48;13.77,416.19;14.90,417.80" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="16.10,418.30" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.48" ytl="326.16" xbr="31.39" ybr="335.23" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.89,331.62" z_order="0">
+    </points>
+  </image>
+  <image id="64" name="training/img38_3.png" width="40" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="39.51,204.76;37.01,207.46;34.41,211.06;30.81,214.76;29.01,218.06;27.21,220.86;25.01,223.96;24.51,225.96;24.50,226.80;23.40,228.30" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.48" ytl="335.52" xbr="34.42" ybr="345.89" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.50,342.11" z_order="0">
+    </points>
+    <points label="ProboscisTip" source="manual" occluded="0" points="26.62,404.78" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="14.62,272.61;14.33,300.38;14.92,334.13;14.92,344.28;15.80,361.90;17.91,377.72;20.90,387.87;23.88,395.94;25.97,400.71;26.87,404.00" z_order="0">
+    </polyline>
+  </image>
+  <image id="65" name="training/img3_1.png" width="54" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="43.60,263.90" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.59" ytl="205.74" xbr="50.68" ybr="222.46" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="30.74,216.71" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="34.63,1.33;27.20,17.09;20.06,37.90;14.71,74.47;17.09,113.72;28.69,178.83;31.66,200.24;35.23,218.38;36.71,234.13;41.47,254.95;43.40,263.60" z_order="0">
+    </polyline>
+  </image>
+  <image id="66" name="training/img3_3.png" width="55" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.53" ytl="206.36" xbr="53.78" ybr="221.02" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="47.77,286.91" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="30.65,216.11" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="33.74,1.04;29.58,12.33;23.63,31.36;17.69,50.39;14.71,62.88;14.42,95.29;17.09,118.77;21.55,149.99;30.47,179.73;35.23,202.02;39.69,225.21;41.47,241.27;43.60,261.80;45.90,274.80;47.80,286.90" z_order="0">
+    </polyline>
+  </image>
+  <image id="67" name="training/img43_1.png" width="37" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.61" ytl="383.30" xbr="31.80" ybr="394.30" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="33.84,207.70;24.60,221.58;14.32,259.59;11.24,284.25;10.00,297.25;8.36,309.43;7.95,339.59;8.98,371.39;7.60,392.20;7.74,413.72;12.37,435.56;16.38,447.33;20.38,455.49;22.23,459.24" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="22.10,459.10" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.59,390.14" z_order="0">
+    </points>
+  </image>
+  <image id="68" name="training/img43_2.png" width="37" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.89" ytl="359.01" xbr="32.02" ybr="369.71" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="18.88,274.57;18.58,361.39;14.50,380.70;10.55,396.17;8.30,409.40;11.00,426.20;14.80,437.50;17.69,445.23" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="17.92,445.11" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.20,364.80" z_order="0">
+    </points>
+  </image>
+  <image id="69" name="training/img43_3.png" width="37" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="18.93,357.49" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="17.44,184.18;18.92,353.90;17.68,386.11;14.71,406.18;13.72,412.63;13.23,416.09;12.80,428.40" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="13.00,428.15" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.37" ytl="351.10" xbr="32.30" ybr="361.53" z_order="0">
+    </box>
+  </image>
+  <image id="70" name="training/img45_1.png" width="40" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="16.71,265.75;13.13,283.06;11.34,300.68;10.15,319.79;10.74,334.42;11.94,349.95;13.43,372.64;13.43,404.00;14.03,418.93;14.03,425.20;15.22,426.99;21.60,428.00" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="21.60,428.00" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.22" ytl="347.45" xbr="33.10" ybr="358.12" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.15,354.05" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="40.00,196.10;40.00,196.10;38.70,199.10;37.10,201.70" z_order="0">
+    </polyline>
+  </image>
+  <image id="71" name="training/img45_2.png" width="40" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="10.62,265.82;13.72,284.41;15.99,301.75;15.99,320.13;16.82,329.00;17.02,340.36;17.64,344.08" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.40" ytl="344.80" xbr="32.80" ybr="355.20" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="18.66,350.86" z_order="0">
+    </points>
+    <points label="ProboscisTip" source="manual" occluded="0" points="18.03,343.63" z_order="0">
+    </points>
+  </image>
+  <image id="72" name="training/img45_3.png" width="39" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="27.26,381.53" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="4.29" ytl="350.08" xbr="32.13" ybr="362.39" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="17.60,357.24" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="38.79,146.42;31.07,164.26;25.12,185.37;21.55,200.24;9.96,257.62;7.58,291.52;8.17,313.82;6.98,345.33;6.68,359.01;8.77,363.17;12.63,369.42;18.28,375.36;23.63,379.52;25.12,381.31;27.20,381.61" z_order="0">
+    </polyline>
+  </image>
+  <image id="73" name="training/img46_2.png" width="41" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="11.60,259.63;15.52,296.38;18.38,321.36;21.48,333.81;24.73,345.51;27.15,351.54;28.33,357.75;30.08,363.24;30.90,371.45;30.90,382.44;31.47,394.03" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.60,375.90" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.80" ytl="371.11" xbr="32.49" ybr="380.19" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="31.78,393.44" z_order="0">
+    </points>
+  </image>
+  <image id="74" name="training/img46_3.png" width="41" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="29.09,393.27" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.10" ytl="355.70" xbr="33.50" ybr="364.60" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.20,360.60" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="15.63,258.93;16.82,282.12;17.54,313.13;19.56,326.90;21.55,340.37;24.55,353.42;28.45,365.04;32.46,373.07;31.66,391.03;28.70,393.20" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="8.49,134.27;9.10,146.32;10.31,158.36;11.83,169.19;12.74,180.01;12.94,187.20;12.64,197.52;13.55,205.11;14.16,212.70;15.07,217.66" z_order="0">
+    </polyline>
+  </image>
+  <image id="75" name="training/img48_1.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.20,211.80;3.30,212.60;6.70,216.60;9.30,221.30;12.90,226.10;14.50,229.10;14.90,230.70;15.30,232.20" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.16,377.24" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.55" ytl="370.51" xbr="33.64" ybr="382.12" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="27.59,270.48;28.88,281.38;30.03,291.99;31.32,319.80;31.03,351.64;29.74,366.83;30.60,375.01;31.89,380.46;30.74,397.52;27.45,418.74;26.73,425.62;23.86,432.79;22.30,435.80;19.80,439.60;18.30,441.80;15.40,446.60" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="15.00,447.00" z_order="0">
+    </points>
+  </image>
+  <image id="76" name="training/img48_2.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="1.61,213.07;8.46,223.34;23.44,262.30;28.15,287.99;30.80,335.60;29.86,355.21;29.01,373.62" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.96,378.19" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.58" ytl="372.49" xbr="33.84" ybr="382.40" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="29.38,373.73" z_order="0">
+    </points>
+  </image>
+  <image id="77" name="training/img48_3.png" width="38" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="9.18,435.05" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="0.00,210.42;4.74,212.62;9.04,217.44;14.55,225.53;16.44,232.41" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="25.28,270.57;26.73,286.06;28.79,312.90;28.79,333.55;29.00,358.94;29.41,379.80;29.21,386.82" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="32.30,393.84;30.03,404.57;26.73,410.97;22.39,417.17;20.12,421.71;15.99,426.87;13.93,430.38;10.00,435.13" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.57,391.90" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.16" ytl="385.50" xbr="33.96" ybr="396.64" z_order="0">
+    </box>
+  </image>
+  <image id="78" name="training/img50_1.png" width="37" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.34,360.07" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="36.54,217.10;29.04,229.59;20.12,254.57;11.92,276.69;8.71,289.53;9.06,356.25;10.63,369.31;14.02,383.69;19.91,396.99;25.65,407.34" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="25.53,407.31" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.52" ytl="353.90" xbr="33.86" ybr="364.84" z_order="0">
+    </box>
+  </image>
+  <image id="79" name="training/img50_2.png" width="37" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.94,343.78" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="19.58,254.26;18.76,265.41;16.28,283.99;15.87,296.38;15.66,307.12;16.90,318.47;17.50,331.90;18.76,337.47" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.00" ytl="338.60" xbr="34.20" ybr="347.90" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="18.72,337.82" z_order="0">
+    </points>
+  </image>
+  <image id="80" name="training/img50_3.png" width="38" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.47,331.22" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.03" ytl="326.17" xbr="34.37" ybr="335.11" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="27.14,343.37" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="1.63,216.00;8.47,226.40;22.15,251.08;27.20,261.19;30.47,274.87;30.77,304.90;27.79,326.01;33.44,330.17;31.07,337.01;27.14,343.37" z_order="0">
+    </polyline>
+  </image>
+  <image id="81" name="training/img54_3.png" width="42" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="6.16" ytl="153.77" xbr="36.72" ybr="162.86" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.62,159.97" z_order="0">
+    </points>
+  </image>
+  <image id="82" name="training/img5_1.png" width="50" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="35.70,180.50" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="4.53" ytl="123.46" xbr="37.98" ybr="134.36" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.39,130.64" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="27.08,87.28;30.05,105.12;32.53,114.78;35.50,129.65;36.49,149.22;35.50,162.85;35.00,173.75;36.24,180.44" z_order="0">
+    </polyline>
+  </image>
+  <image id="83" name="training/img5_2.png" width="50" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="38.19,174.67" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="11.86,101.27;14.96,121.50;15.79,129.97;17.23,138.22;23.43,149.37;30.24,160.32;35.40,168.58;38.70,175.39" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.64,133.89" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="4.29" ytl="128.21" xbr="35.61" ybr="137.16" z_order="0">
+    </box>
+  </image>
+  <image id="84" name="training/img5_3.png" width="50" height="600">
+    <points label="ProboscisTip" source="manual" occluded="0" points="34.44,176.00" z_order="0">
+    </points>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="19.77,132.04" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.44" ytl="125.02" xbr="36.26" ybr="134.48" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="25.45,82.20;28.12,98.56;31.09,112.23;33.77,125.61;34.20,145.10;34.31,156.42;34.42,166.08;34.66,174.11;34.54,176.01" z_order="0">
+    </polyline>
+  </image>
+  <image id="85" name="training/img6_1.png" width="40" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.09,307.57" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.82" ytl="301.37" xbr="33.47" ybr="311.40" z_order="0">
+    </box>
+  </image>
+  <image id="86" name="training/img6_2.png" width="38" height="600">
+    <polyline label="Proboscis" source="manual" occluded="0" points="9.87,240.94;16.58,251.61;23.12,266.41;26.73,277.76;29.48,297.55;29.65,306.84" z_order="0">
+    </polyline>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="18.90,313.24" z_order="0">
+    </points>
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.23" ytl="307.19" xbr="31.60" ybr="317.37" z_order="0">
+    </box>
+    <points label="ProboscisTip" source="manual" occluded="0" points="29.10,308.12" z_order="0">
+    </points>
+  </image>
+  <image id="87" name="training/img6_3.png" width="40" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="7.90" ytl="297.59" xbr="33.90" ybr="307.30" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="20.38,302.76" z_order="0">
+    </points>
+  </image>
+  <image id="88" name="training/img9_1.png" width="47" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="21.49,189.86" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="17.60,82.74;17.89,91.36" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="47.00,24.53;41.98,30.11;36.62,39.03" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="5.05" ytl="182.96" xbr="37.57" ybr="194.14" z_order="0">
+    </box>
+    <polyline label="Proboscis" source="manual" occluded="0" points="17.98,107.77;12.63,121.15;9.06,138.69;9.06,151.48" z_order="0">
+    </polyline>
+  </image>
+  <image id="89" name="training/img9_2.png" width="43" height="600">
+    <points label="MeniscusCenter" source="manual" occluded="0" points="22.81,157.59" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="27.76,104.73;25.70,113.20;23.63,126.83;22.81,141.28;20.53,148.71;18.88,156.35;18.47,161.93" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="18.06,163.17" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="40.80,1.50;38.60,10.50;37.90,19.60;37.10,26.20;36.00,33.90" z_order="0">
+    </polyline>
+    <box label="Meniscus" source="manual" occluded="0" xtl="8.15" ytl="152.22" xbr="39.12" ybr="161.31" z_order="0">
+    </box>
+  </image>
+  <image id="90" name="training/img9_3.png" width="43" height="600">
+    <box label="Meniscus" source="manual" occluded="0" xtl="9.83" ytl="151.97" xbr="39.26" ybr="161.43" z_order="0">
+    </box>
+    <points label="MeniscusCenter" source="manual" occluded="0" points="23.08,157.65" z_order="0">
+    </points>
+    <polyline label="Proboscis" source="manual" occluded="0" points="26.90,105.19;25.35,114.65;24.66,122.22;23.80,130.83;22.43,138.57;22.43,147.52;21.74,153.88" z_order="0">
+    </polyline>
+    <polyline label="Proboscis" source="manual" occluded="0" points="42.21,0.71;40.98,13.93;40.15,24.87;39.74,32.72" z_order="0">
+    </polyline>
+    <points label="ProboscisTip" source="manual" occluded="0" points="21.30,154.00" z_order="0">
+    </points>
+  </image>
+</annotations>
