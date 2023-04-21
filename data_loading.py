@@ -95,7 +95,7 @@ def filter_unlabeled(pairs: typing.List[typing.Tuple[np.ndarray, np.ndarray]]) -
     return labeled_pairs
 
 
-def split_pairs(pairs: typing.List[typing.Tuple[np.ndarray, np.ndarray]]) -> typing.Tuple[np.ndarray, np.ndarray]:
+def split_pairs(labeled_pairs: typing.List[typing.Tuple[np.ndarray, np.ndarray]]) -> typing.Tuple[np.ndarray, np.ndarray]:
     inputs = []
     outputs = []
     for my_in, my_out in labeled_pairs:
