@@ -19,13 +19,13 @@ import typing
 tf.keras.backend.set_image_data_format('channels_last')
 
 
-def get_annotations() -> ElementTree.ElementTree:
-    et = ElementTree.parse("proboscis_annotations_big.xml")
+def get_annotations(filename="proboscis_annotations_big.xml") -> ElementTree.ElementTree:
+    et = ElementTree.parse(filename)
     return et
 
 
-def get_image_names() -> typing.List[str]:
-    image_names = sorted(glob.glob("big/*.png"))
+def get_image_names(folder_pattern="big/*.png") -> typing.List[str]:
+    image_names = sorted(glob.glob(folder_pattern))
     return image_names
 
 
